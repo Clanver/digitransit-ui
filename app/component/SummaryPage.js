@@ -1179,6 +1179,7 @@ class SummaryPage extends React.Component {
                   temperature: res[0].ParameterValue,
                   windSpeed: res[1].ParameterValue,
                   weatherHash,
+                  time,
                   // Icon id's and descriptions: https://www.ilmatieteenlaitos.fi/latauspalvelun-pikaohje ->  Sääsymbolien selitykset ennusteissa.
                   iconId: this.checkDayNight(
                     res[2].ParameterValue,
